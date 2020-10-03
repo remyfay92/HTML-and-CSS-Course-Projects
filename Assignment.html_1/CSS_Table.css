@@ -1,0 +1,15 @@
+table {
+    border:1px solid silver;
+	}
+td:hover {
+    background-color:silver;
+	color:purple;
+	}
+td, th {
+    background-color:black;
+	color:crimson;
+	}
+tr, td {
+    background-color:darkred;
+	color:indigo;
+	}
