@@ -1,0 +1,71 @@
+body {
+    color: #2f4f4f;
+    background: #8b0000;
+    text-align: center; 
+}
+
+.navbar {
+    margin: 10px 10px 10px 10px;
+    font-family: "Comic Sana MS", cursive, sans-serif;
+    font-size: 10px;
+    border: 2px solid silver;
+    border-radius: 6px;
+    border-width: thin medium;
+}
+.navbar ul a li {
+    color: black;
+} 
+section div h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+section gallery h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#gallery img1 img2 img3 img4 {
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+#video h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+#video video1 video2 video3 {
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+section form {
+    border: 2px solid grey;
+    border-radius: 25px;
+    border-width: thin medium;
+    margin: 20px 15px 20px 15px;
+    text-align: center;
+}
+#form h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+#form p {
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+}
+#form label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#form input {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 25px;
+    border-width: thin medium thick;
+    margin: 10px 5px 10px 5px;
+}
+footer p {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 10px;
+}

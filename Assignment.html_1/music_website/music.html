@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Music</title>
+	   <meta charset="UTF-8">
+	  <title>Music</title>
+	  <link rel="stylesheet" href="one_page_website.css/css-one-page.css">
    </head>
    <body>
-      <div>
+      <div class="navbar">
           <ul>
 			   <a href="#home" id="link"><li>Home</li></a>
 			   <a href="#gallery"><li>Music Gallery</li></a>
@@ -14,14 +16,14 @@
 	   </div>
       <!--HOME-->
 	  <section>
-	     <div id="home">
-            <h2><b><i>Music for Everyone!</i></b></h2>
-	           <div>
-		          <iframe src="article/music.txt.html"
-			      style="height:200px;width:300px;border:2px solid red;"
-			      title="10 Positive Benefits Of Listning To Music."></iframe
-               </div>
-	   </div>
+	       <div id="home">
+               <h2><b><i>Music for Everyone!</i></b></h2>
+	               <div class="article">
+		               <iframe src="article/music.txt.html"
+			           style="height:200px;width:300px;border:2px solid red;"
+			           title="10 Positive Benefits Of Listning To Music."></iframe>
+                   </div>
+	       </div>
       </section>	   
 	 <!--END HOME-->
 	 
@@ -29,16 +31,16 @@
 	 <section>
 	   <div id="gallery">    
 	   <h3><b>Music Gallery</b><h3>
-	      <div> 
+	      <div class="img1"> 
 			 <img src="image/music1.jpg" alt="my music1">
 		  </div><br>
-			<div>
+			<div class="img2">
 			    <img src="image/music2.jpg" alt="my music2">
 			 </div><br>
-			    <div>
+			    <div class="img3">
 				   <img src="image/music3.jpg" alt="my music3">
 				</div><br>
-				   <div>
+				   <div class="img4">
 				      <img src="image/music4.jpg" alt="my music4">
 				   </div><br>
 	   </div>
@@ -48,13 +50,13 @@
 	 <section>
 	    <div id="video">
 	    <h3><i>Music Videos<i><h3>
-		   <div>
+		   <div class="video1">
 		      <video src="video/music1.mp4" type="video/mp4" controls>
 		   </div><br>
-		   <div>
+		   <div class="video2">
 		      <video src="video/music2.mp4" type="video/mp4" controls>
 		   </div><br>
-		   <div>
+		   <div class="video3">
 		      <video src="video/music3.mp4" type="video/mp4"controls>
 		   </div><br>
 	   </div>
@@ -64,14 +66,14 @@
    <section>
       <div id="form">
       <h3><b><i>News Letter</i></b></h3>
-	     <p><i>Sign up for our weekly news letter.</i></p>
-		 <form action="">
-		    <label for="fname">First Name:</label><br>
-			<input type="text" id="fname" name="fname"><br>
-			<label for="lname">Last Name:</label><br>
-			<input type="text" id="lname" name="lname"><br>
-			<input type="submit" value="Submit">
-	   </form><br>
+	       <p><i>Sign up for our weekly news letter.</i></p>
+		       <form action="">
+		            <label for="fname">First Name:</label><br>
+			        <input type="text" id="fname" name="fname"><br>
+			        <label for="lname">Last Name:</label><br>
+			        <input type="text" id="lname" name="lname"><br>
+			        <input type="submit" value="Submit">
+	           </form><br>
 	   </div>
 	</section>
    <!--NEWS LETTER-->
