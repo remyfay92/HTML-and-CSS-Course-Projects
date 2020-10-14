@@ -8,19 +8,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Academy Cenima!</title>
   </head>
   <body>
+    <!--NAVBAR-->
    <div class="container">
        <nav class="navbar navbar-expand-lg navbar-light bg-info">
     
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
            <ul class="navbar-nav mr-auto">
              <li class="nav-item active">
-               <a class="nav-link text-white" href="#">About<span class="sr-only">(current)</span></a>
+               <a class="nav-link text-white" href="#about">About<span class="sr-only">(current)</span></a>
              </li>
              <li class="nav-item active">
-               <a class="nav-link text-white" href="#">Showtimes</a>
+               <a class="nav-link text-white" href="#showtimes">Showtimes</a>
              </li>
              <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,7 +35,7 @@
                </div>
              </li>
              <li class="nav-item active">
-               <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Deals</a>
+               <a class="nav-link text-white" href="#deals" tabindex="-1" aria-disabled="true">Deals</a>
              </li>
            </ul>
            <form class="form-inline my-2 my-lg-0">
@@ -49,7 +50,9 @@
            <p class="lead text-white">Sit back relax and injoy the show....</p>
          </div>
        </div>
-       <div class="container">
+       <!--END NAVBAR-->
+       <!--ABOUT-->
+       <div class="container" id="about">
           <div class="row">
             <div class="col-sm">
               <img class="img-fluid" src="img/S.A..jpg" alt="">
@@ -64,20 +67,59 @@
            <div class="col-sm">
              <ul class="list-group">
                <li class="list-group-item">
-                 <a class="nav-link" href="#">Beauty and the Best</a>
+                 <a class="nav-link" href="#B">Beauty and the Best</a>
                </li>
                <li class="list-group-item">
-                 <a class="nav-link" href="#">Avengers</a>
+                 <a class="nav-link" href="#A">The Avengers</a>
                </li>
                <li class="list-group-item">
-                 <a class="nav-link" href="#">Ghost in the Shell</a>
+                 <a class="nav-link" href="#C">Ghost in the Shell</a>
                </li>
              </ul>
            </div>
          </div>
        </div>
-
-       <div class="text-center">
+           <!--END ABOUT-->
+           <!--SHOWTIMES-->
+           <div class="card-deck" id="showtimes">
+            <div class="card" id="A"><br><br>
+              <img src="img/Aven.jpg" class="card-img-top" alt="..."><br><br>
+              <div class="card-body">
+                <h5 class="card-title">The Avengers</h5>
+                <p class="card-text">The Avengers, American comic strip superhero team whose frequently changing roster often included some of the most popular characters in the Marvel Comics universe. Billed as “Earth’s mightiest super-heroes,” the team was created by writer Stan Lee and artist Jack Kirby, and it debuted in The Avengers no. 1 (September 1963).</p>
+                <span class="badge badge-pill badge-info">9:45</span>
+                <span class="badge badge-pill badge-info">11:30</span>
+                <span class="badge badge-pill badge-info">1:15</span>
+                <span class="badge badge-pill badge-info">3:00</span>
+              </div>
+            </div>
+            <div class="card" id="B"><br><br>
+              <img src="img/B&B.jpg" class="card-img-top" alt="..."><br><br>
+              <div class="card-body">
+                <h5 class="card-title">Beuty And The Beast</h5>
+                <p class="card-text">Beauty and the Beast is one of those fairy tales that contains a profound, eternal, even overtly Christian message about the human condition.</p>
+                <span class="badge badge-pill badge-primary">10:00</span>
+                <span class="badge badge-pill badge-primary">12:15</span>
+                <span class="badge badge-pill badge-primary">1:55</span>
+                <span class="badge badge-pill badge-primary">3:25</span>
+                <span class="badge badge-pill badge-primary">4:45</span>
+              </div>
+            </div>
+            <div class="card" id="C"><br><br>
+              <img src="img/GITS.jpg" class="card-img-top" alt="..."><br><br>
+              <div class="card-body">
+                <h5 class="card-title">Ghost In The Shell</h5>
+                <p class="card-text">In the near future, humans are augmented with cybernetic improvements to traits such as vision, strength, and intelligence. Augmentation developer Hanka Robotics establishes a secret project to develop an artificial body, or "shell", that can integrate a human brain rather than an AI. Mira Killian, the sole survivor of a cyberterrorist attack which killed her parents, is chosen as the test subject after her body is damaged beyond repair. </p>
+                <span class="badge badge-pill badge-danger">10:30</span>
+                <span class="badge badge-pill badge-danger">12:30</span>
+                <span class="badge badge-pill badge-danger">2:45</span>
+                <span class="badge badge-pill badge-danger">5:00</span>
+              </div>
+            </div>
+          </div>
+           <!-- END SHOWTIMES-->
+           <!--DEALS-->
+       <div class="text-center" id="deals">
          <form>
            <h1 class="text-primary my-5">Sign up for Moive Club Rewards!</h1>
               <div class="form-group">
@@ -86,10 +128,12 @@
              <button type="submit" class="btn btn-primary">Submit</button>
          </form>
        </div>
-       <div class="container">
+       <!--END DEALS-->
+       <!--FOOTER-->
+       <div class="container my-5">
          <ul class="nav nav-inline">
            <li class="nav-item">
-             <small><a class="nav-lik active" href="#">Moive Rewards</a></small>
+             <small><a class="nav-link active" href="#">Moive Rewards</a></small>
            </li>
            <li class="nav-item">
              <small><a class="nav-link" href="#">somthing.com</a></small>
@@ -98,11 +142,12 @@
              <small><a class="nav-link" href="#">somthing.org</a></small>
            </li>
            <li class="nav-item">
-             <small class="nav-link">copy right &copy</small>
+             <small class="nav-link">copy right &copy;</small>
            </li>
          </ul>
        </div>
     </div>
+    <!--END FOOTER-->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
