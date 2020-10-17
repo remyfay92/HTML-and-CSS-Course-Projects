@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Challange 8</title>
+       <style>
+           .container {
+        width: 200px;
+        height: 200px;
+        position: centered;
+        margin: 20px;
+    }
+    .video {
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+    .overlay {
+        position: absolute;
+        left: auto;
+        right: auto;
+        z-index: 9;
+        margin: 20px;
+         opacity: 0.8;
+    }
+       </style>
+   </head>
+   <body>
+       <div class="container">
+           <div class="video">
+               <video width="440" height="360" controls autoplay muted>
+                    <source src="video1.mp4" type="video/mp4">
+                    <source src="video1.mp4" type="video/mp4">
+               </video>
+            </div>
+               <div class="overlay">
+                   <h2>A Stary Night</h2>
+               </div>  
+       </div>
+   </body>
+</html>
